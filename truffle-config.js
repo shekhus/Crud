@@ -1,4 +1,3 @@
-//https://goerli.infura.io/v3/12d81d2652574509b991c7f01ffbd77f
 const fs =require('fs');
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
