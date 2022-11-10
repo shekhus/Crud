@@ -19,6 +19,8 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.1.1"
+    "@truffle/hdwallet-provider": "^2.1.1",
+    "check-node-version": "^4.2.1",
+    "solc": "^0.8.17"
   }
 }
