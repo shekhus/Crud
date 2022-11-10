@@ -3,7 +3,7 @@ const fs =require('fs');
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 const secrets = JSON.parse(fs.readFileSync('.secrets').toString().trim());
-// truffle-hdwallet-provier
+// truffle-hdwallet-provider
 module.exports = {networks : {
     goerli:{
         provider:() =>
